@@ -947,8 +947,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
         app_version: null === (Ea = window.wordle) || void 0 === Ea ? void 0 : Ea.hash,
         debug_mode: !1
     });
-    var La = ["wrong", "china", "trump", "fired", "lying", "nasty", "woman", "bigly", "small", "hands", "false", "fraud"],
-        Ta = ["wrong", "china", "trump", "fired", "lying", "nasty", "woman", "bigly", "small", "hands", "false", "fraud"],
+    var La = ["wrong", "china", "trump", "fired", "lying", "nasty", "woman", "bigly", "small", "hands", "false", "fraud", "bigot", "bitch", "troll", "money"],
+        Ta = ["wrong", "china", "trump", "fired", "lying", "nasty", "woman", "bigly", "small", "hands", "false", "fraud", "bigot", "bitch", "troll", "money"],
         Ia = "present",
         Ma = "correct",
         Oa = "absent";
