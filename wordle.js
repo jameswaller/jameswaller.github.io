@@ -1669,25 +1669,25 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                                 return a.forEach((function(e) {
                                     e && (e.forEach((function(e) {
                                         if (e) {
-                                            var a = "";
-                                            switch (e) {
-                                                case Ma:
-                                                    a = function(e) {
-                                                        return e ? "ðŸŸ§" : "ðŸŸ©"
-                                                    }(i);
-                                                    break;
-                                                case Ia:
-                                                    a = function(e) {
-                                                        return e ? "ðŸŸ¦" : "ðŸŸ¨"
-                                                    }(i);
-                                                    break;
-                                                case Oa:
-                                                    a = function(e) {
-                                                        return e ? "â¬›" : "â¬œ"
-                                                    }(r)
-                                            }
-                                            d += a
+                                        var a = "";
+                                        switch (e) {
+                                        case Ma:
+                                            a = function(e) {
+                                                return e ? "🟧" : "🟩"
+                                            }(i);
+                                            break;
+                                        case Ia:
+                                            a = function(e) {
+                                                return e ? "🟦" : "🟨"
+                                            }(i);
+                                            break;
+                                        case Oa:
+                                            a = function(e) {
+                                                return e ? "⬛" : "⬜"
+                                            }(r)
                                         }
+                                        d += a
+                                    }
                                     })), d += "\n")
                                 })), {
                                     text: "".concat(l, "\n\n").concat(d.trimEnd())
